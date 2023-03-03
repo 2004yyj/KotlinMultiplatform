@@ -34,12 +34,6 @@ extension ContentView {
                         self.text = ($0 as? String) ?? ""
                     }.store(in: &disposables)
             }
-
-//                .sink(
-//                    receiveValue: { [weak self] docs in
-//                        self?.text = docs.text
-//                    }
-//                ).store(in: &disposables)
         }
     }
 }
